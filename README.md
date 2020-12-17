@@ -1,7 +1,7 @@
 # Java-Calculator
 A simple java calculator I wrote in high school as an assignment.
 
-I decided to take a second look at this project I wrote and make minor modifications (and the inclusion of the Windowdestroyer class to make it work) to it.
+I decided to take a second look at this project I wrote and make minor modifications (and the inclusion of the WindowDestroyer class to make it work) to it.
 ## Features:
 * Basic arithmetic (addition, subtraction, division, multiplication)
 * Squaring
