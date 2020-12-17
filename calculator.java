@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*; 
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 public class calculator extends JFrame implements ActionListener
 {
 	
@@ -136,7 +137,7 @@ public class calculator extends JFrame implements ActionListener
         root.addActionListener(this);
         buttonPanel.add(root);
         
-        JButton story=new JButton("turn current number into negative");
+        JButton story=new JButton("negate");
         story.addActionListener(this);
         buttonPanel.add(story);
         
@@ -768,7 +769,7 @@ public class calculator extends JFrame implements ActionListener
 				opera=0;
 			}	 	
 		}
-		else if(actionCommand.equals("turn current number into negative"))
+		else if(actionCommand.equals("negate"))
 		{
 			try
 			{
@@ -901,6 +902,8 @@ public class calculator extends JFrame implements ActionListener
 			else if(d==3)
 			{
 				iof.setText("(86x/(3m(pix)^(1/2))>x>y");
+				
+				iof.setText("");
 				d++;
 			}
 			else if(d==4)
