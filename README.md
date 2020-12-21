@@ -15,3 +15,5 @@ I decided to take a second look at this project I wrote and make minor modificat
 * Cannot perform complex expressions i.e (3+2/8). The calculator will perform 3+2, then returns an answer of 5.0 then performs 5/8
 * Return answers as integers when it can be returned as an integer. i.e 3 will always be returned as 3.0
  
+##Status
+I don't intend on returning to this project given that this was created a couple years after creating this readme file. This is most likely the last update I'll give to it for now.
